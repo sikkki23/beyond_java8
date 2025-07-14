@@ -105,7 +105,7 @@ public class CollectionFactory {
         List<String> one = List.of("Epl");
         List<String> two = List.of("Epl","LaLiga");
         List<String> ten = List.of("a","b","c","d","e","f","g","h","i","j");
-        emptyList.add("kkk");
+        //emptyList.add("kkk");
         System.out.println(emptyList); // through exception java.base/java.util.ImmutableCollections.uoe
         //UnsupportedOperationException
         //leagues.add("Ligue 1");
