@@ -12,12 +12,12 @@ public class CollectionFactory {
 
         //Comment/Uncomment the following to check the output.
 
-        list();
-       // set();
-       // map();
-        //noNull();
-        //noDuplicates();
-        ofVsUnmodifiable();
+          list();
+    //    set();
+    //    map();
+    //    noNull();
+    //    noDuplicates();
+    //     ofVsUnmodifiable();
     }
 
     public static void ofVsUnmodifiable() {
@@ -48,9 +48,9 @@ public class CollectionFactory {
         set.add("EPL");
         System.out.println(set);
 
-        System.out.println("Adding duplicates using Set.of");
-        Set<String> leagues = Set.of("EPL","LALIGA","BUNDESLIGA","EPL");
-        System.out.println(leagues);
+        // System.out.println("Adding duplicates using Set.of");
+        // Set<String> leagues = Set.of("EPL","LALIGA","BUNDESLIGA","EPL");
+        // System.out.println(leagues);
 
         System.out.println("Adding duplicates using Map.of");
         Map<String,Integer> leagueRanking =
@@ -104,8 +104,8 @@ public class CollectionFactory {
         List<String> emptyList  = List.of();
         List<String> one = List.of("Epl");
         List<String> two = List.of("Epl","LaLiga");
-        List<String> ten = List.of("a","b","c","d","e","f","g","h","i","j");
-        
+        List<String> ten = List.of("a","b","c","d","e","f","g","h","i","j","k","l");
+        System.out.println(ten);
         //emptyList.add("kkk");
         //System.out.println(emptyList); // through exception java.base/java.util.ImmutableCollections.uoe
         //UnsupportedOperationException
